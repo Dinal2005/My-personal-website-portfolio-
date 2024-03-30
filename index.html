@@ -16,7 +16,7 @@
 </head>
 
  <!-- right click desaible -->
-<body oncontextmenu="return false">
+<body oncontextmenu="return true">
 
 <!-- <body> -->
 
@@ -27,7 +27,7 @@
 
 <!-- navbar starts -->
 <header>
-        <a href="#" class="logo"><i class="#"></i>Portfolio</a>
+  <a href="index.html" class="logo"><i class="fab fa-node-js"></i> Dinal Fernando</a>
 
         <div id="menu" class="fas fa-bars"></div>
         <nav class="navbar">
@@ -94,25 +94,30 @@
         
         <div class="box-container">
              <div class="box">
-              <p><span> age: </span> 18</p>
+              <p><span> email : </span> <a href= "mailto:dinalfernando43@gmail.com" target="_blank">dinalfernando43@gmail.com</a></p>
               <p><span> phone : </span> <a href="tel:+94 70 111 9189">+94 70 111 9189</a></p>
             </div> 
             <div class="box">
-              <p><span> email : </span> <a href= "mailto:dinalfernando43@gmail.com" target="_blank">dinalfernando43@gmail.com</a></p>
               <p><span> place : </span>169/25, John Rodrigo Mw,<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;  Katubedda, Moratuwa.</p>
             </div>
         </div>
-
-        <!-- <div class="resumebtn">
-            <a href="assets/images/educat/ERROR.pdf" download class="btn"><span> Download CV </span>
-                <i class="fas fa-chevron-right"></i>
-            </a>
-        </div>
-        <div class="resumebtn">
-            <a href="assets/images/educat/ERROR.pdf" target="_blank" class="btn"><span> View Resume </span>
-                <i class="fas fa-chevron-right"></i>
-            </a>
-        </div> -->
+        <br>
+        <br>
+        <div class="resumebtn-container">
+          <div class="resumebtn">
+              <a href="assets/images/educat/Dinal CV.pdf" download class="btn"><span> Download CV </span>
+                  <i class="fas fa-chevron-right"></i>
+              </a>
+          </div>
+          <div class="resumebtn">
+              <a href="assets/images/educat/Dinal CV.pdf" target="_blank" class="btn"><span> View Resume </span>
+                  <i class="fas fa-chevron-right"></i>
+              </a>
+          </div>
+      </div>
+      <br>
+      <br>
+      
         <div class="resumebtn">
           <a href="#contact"  class="btn"><span> Hire Me </span>
               <i class="fas fa-chevron-right"></i>
@@ -133,19 +138,6 @@
     <div class="container">
           <div class="row" id="skillsContainer">
       </div>
-      <div class="jss">
-    <center><h1>My Other <span>Works</span></h1></center>
-      </div>
-
-    <div class="jdd"> 
-    <center><h2><p>Networking<br>
-      System Maintenance<br>
-      Web Development<br>
-      Graphic Designing<br>
-      Web Hosting<br>
-      Domain Reselling
-      </p></h2></center>
-    </div>
 </div>
 </section>
 <!-- skills section ends -->
@@ -219,11 +211,11 @@
 <form id="contact-form" action="form.php" method="POST" class="contact-form">
   <div class="form-group">
       <div class="field field-column">
-          <input type="text" name="name" placeholder="Name" required>
+          <input type="text" name="to_name" placeholder="Name" required>
           <i class='fas fa-user'></i>
       </div>
       <div class="field field-column">
-          <input type="email" name="email" placeholder="Email" required>
+          <input type="text" name="from_name" placeholder="Email" required>
           <i class='fas fa-envelope'></i>
       </div>
       <div class="field field-column">
@@ -289,7 +281,7 @@
           </div>
       </div>
       <div class="container copyright">
-        <p>&#169; <a href="index.html">DinalFernando.lk</a>, All Right Reserved. Designed By <a
+        <p>&#169; <a href="https://www.dinalfernando.com" target="_blank">dinalfernando.com</a>, All Right Reserved. Designed By <a
                 href="#">Dinal Fernando.</a></p>
     </div>
   </div>
